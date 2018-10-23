@@ -5,7 +5,45 @@ fields:
   vimeoID:
     label: Vimeo ID
     type: text
-  vimeoStream:
-    label: Vimeo Stream
+    width: 1/2
+  vimeoName:
+    label: Vimeo Name
+    type: text
+    disabled: true
+    width: 1/2
+  vimeoDescription:
+    label: Vimeo Description
+    type: textarea
+    disabled: true
+    width: 1/2
+  vimeoURL:
+    label: Vimeo URL
     type: url
-    readonly: true
+    disabled: true
+    width: 1/2
+  vimeoThumbnails:
+    label: Vimeo Thumbnails
+    type: structure
+    fields:
+      width:
+        type: number
+      height:
+        type: number
+      link:
+        type: url
+    disabled: true
+  vimeoFiles:
+    label: Vimeo Files
+    type: structure
+    fields:
+      quality:
+        type: text
+      type:
+        type: text
+      width:
+        type: number
+      height:
+        type: number
+      link:
+        type: url
+    disabled: true
