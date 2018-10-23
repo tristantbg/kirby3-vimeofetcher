@@ -9,5 +9,4 @@ Kirby::plugin('tristantbg/kirby3-vimeofetcher', [
         'files/vimeo' => __DIR__ . 'lib/blueprints/vimeo.yml',
     ],
     'hooks' => require_once __DIR__ . '/lib/hooks.php',
-]
 ]);
