@@ -1,0 +1,11 @@
+title: Vimeo
+accept:
+  mime: image/jpeg, image/png
+fields:
+  vimeoID:
+    label: Vimeo ID
+    type: text
+  vimeoStream:
+    label: Vimeo Stream
+    type: url
+    readonly: true
