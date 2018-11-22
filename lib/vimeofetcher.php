@@ -75,6 +75,7 @@ class VimeoFetcher
                     'vimeoURL'         => '',
                     'vimeoThumbnails'  => '',
                     'vimeoFiles'       => '',
+                    'template'       => 'vimeo',
                 ));
             }
 
@@ -122,6 +123,7 @@ class VimeoFetcher
                     'vimeoURL'         => $body['link'],
                     'vimeoThumbnails'  => \Kirby\Data\Yaml::encode($vimeoThumbnails),
                     'vimeoFiles'       => \Kirby\Data\Yaml::encode($vimeoFiles),
+                    'template'         => 'vimeo'
                 ));
 
             }
