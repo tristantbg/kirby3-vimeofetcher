@@ -117,6 +117,7 @@ class VimeoFetcher
             if ($file) {
 
                 $file->update(array(
+                    'vimeoID'          => $id,
                     'vimeoData'        => \Kirby\Data\Yaml::encode($body),
                     'vimeoName'        => $body['name'],
                     'vimeoDescription' => $body['description'],
